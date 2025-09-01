@@ -97,9 +97,9 @@ class RecipeListScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Food Recipes",
-          style: TextStyle(color: Colors.white), // ✅ White text
+          style: TextStyle(color: Colors.white), 
         ),
-        backgroundColor: Colors.blue, // ✅ Blue AppBar
+        backgroundColor: Colors.blue,
       ),
       body: ListView.builder(
         itemCount: recipes.length,
